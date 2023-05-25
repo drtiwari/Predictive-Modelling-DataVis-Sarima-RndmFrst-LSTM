@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<day &le; 13.5<br/>squared_error = 0.4<br/>samples = 33<br/>value = 4.2>] ;
+1 [label=<month &le; 2.5<br/>squared_error = 0.2<br/>samples = 14<br/>value = 4.4>] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<day &le; 10.5<br/>squared_error = 0.1<br/>samples = 5<br/>value = 4.2>] ;
+1 -> 2 ;
+3 [label=<squared_error = 0.1<br/>samples = 3<br/>value = 4.0>] ;
+2 -> 3 ;
+4 [label=<squared_error = 0.0<br/>samples = 2<br/>value = 4.5>] ;
+2 -> 4 ;
+5 [label=<day &le; 7.0<br/>squared_error = 0.2<br/>samples = 9<br/>value = 4.6>] ;
+1 -> 5 ;
+6 [label=<squared_error = 0.3<br/>samples = 5<br/>value = 4.4>] ;
+5 -> 6 ;
+7 [label=<squared_error = 0.1<br/>samples = 4<br/>value = 4.8>] ;
+5 -> 7 ;
+8 [label=<day &le; 16.0<br/>squared_error = 0.5<br/>samples = 19<br/>value = 4.0>] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<day &le; 14.5<br/>squared_error = 0.0<br/>samples = 2<br/>value = 2.7>] ;
+8 -> 9 ;
+10 [label=<squared_error = 0.0<br/>samples = 1<br/>value = 2.8>] ;
+9 -> 10 ;
+11 [label=<squared_error = 0.0<br/>samples = 1<br/>value = 2.7>] ;
+9 -> 11 ;
+12 [label=<month &le; 2.5<br/>squared_error = 0.4<br/>samples = 17<br/>value = 4.1>] ;
+8 -> 12 ;
+13 [label=<squared_error = 0.2<br/>samples = 7<br/>value = 4.3>] ;
+12 -> 13 ;
+14 [label=<squared_error = 0.4<br/>samples = 10<br/>value = 3.9>] ;
+12 -> 14 ;
+}
