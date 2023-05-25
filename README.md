@@ -6,6 +6,6 @@ The data acquistion hardware (IoT) and machine learning (python) was performed b
 
 The weblink to the published work is this. **https://www.mdpi.com/1969196**
 
-The results are communicated by me in the form of research paper attached here with title **Advanced Data Systems_A.Tiwari**.
+The results are communicated by me in the form of research paper attached here with title **Advanced Data Systems for power predictive analytics_A.Tiwari**.
 
 **Ing. Amber Tiwari(PhD)**
